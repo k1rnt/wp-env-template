@@ -1,0 +1,22 @@
+{
+  "core": "https://ja.wordpress.org/wordpress-6.3.1-ja.zip",
+  "phpVersion": "8.2",
+  "plugins": [],
+  "themes": [
+    "https://downloads.wordpress.org/theme/twentynineteen.zip"
+  ],
+  "port": 10088,
+  "env": {
+    "tests": {
+        "port": 10089
+    }
+  },
+  "config": {
+    "WP_DEBUG": true
+  },
+  "mappings": {
+    "wp-content/themes/": "./dist/themes/",
+    "wp-content/plugins/": "./dist/plugins/"
+  }
+}
+
